@@ -34,7 +34,7 @@ p {
 }
 
 /******** FontPage Showcase ********/
-.highlight-earth {
+.highlight-white {
     color: rgb(149, 236, 149);
 }
 
@@ -54,7 +54,7 @@ p {
 }
 
 .btn:hover {
-    background: #060;
+    background: #050;
 }
 
 /******** HomePage Info ********/
@@ -78,8 +78,8 @@ p {
 }
 
 /*** HomePage Info 3 ***/
-.highlight-creatures {
-    color: #848484;
+.highlight-black {
+    color: #777;
 }
 
 .btn-4:hover {
@@ -90,11 +90,18 @@ p {
     clear: both;
 }
 
-/*** HomePage Features ***/
-
 /******** About Page ********/
 .biger-header {
     font-size: 40px;
+}
+
+/*  */
+.btn-submit {
+    background: none;
+}
+
+.btn-submit:hover {
+    background-color: #040;
 }
 
 /********************* IDs Section *********************/
@@ -207,14 +214,14 @@ p {
 
 
 #home-info2 .info-content-2 h1 span {
-    color: #0f0;
+    color: rgb(149, 236, 149);
 }
 
 /*** HomePage Info 3 ***/
 #home-info3 {
     background-color: #d4d4d4;
     height: 700px;
-    /* border-bottom: solid 50px #d4d4d4; */
+    color: #333;
 }
 
 #home-info3 .info-img-3 {
@@ -327,6 +334,66 @@ p {
     float: left;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+/******** Contact Page ********/
+#contact-form {
+    /* background: url('../images/contact-bg.jpg'); */
+    background-color: #050;
+    padding: 100px 0 50px 0;
+    color: #fff;
+}
+
+#contact-form p {
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+#contact-form .form-group {
+    padding-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #aaa;
+    transition: 0.5s;
+    background: none;
+    color: #fff;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: rgb(149, 236, 149);
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+/*** Contactbox ***/
+#contact-info {
+    padding-bottom: 50px;
+    background-color: #050;
+}
+
+#contact-info .contact-info-box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#contact-info .contact-info-box i {
+    padding-bottom: 10px;
 }
 
 /******** Footer ********/
