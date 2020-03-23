@@ -283,6 +283,10 @@ p {
     border-bottom: solid 10px #333;
 }
 
+#about-info a {
+    color: #050;
+}
+
 #about-info .about-info-right {
     width: 50%;
     min-height: 100%;
