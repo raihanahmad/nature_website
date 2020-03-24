@@ -101,7 +101,7 @@ p {
 }
 
 .btn-submit:hover {
-    background-color: #040;
+    background-color: rgb(149, 236, 149);
 }
 
 /********************* IDs Section *********************/
@@ -342,9 +342,9 @@ p {
 
 /******** Contact Page ********/
 #contact-form {
-    /* background: url('../images/contact-bg.jpg'); */
-    background-color: #050;
-    padding: 100px 0 50px 0;
+    background: url('../images/contact-bg.jpg') no-repeat center center/cover;
+    /* background-color: #050; */
+    padding: 100px 0 20px 0;
     color: #fff;
 }
 
@@ -384,8 +384,8 @@ p {
 
 /*** Contactbox ***/
 #contact-info {
-    padding-bottom: 50px;
-    background-color: #050;
+    padding-top: 50px;
+    /* background-color: #050; */
 }
 
 #contact-info .contact-info-box{
@@ -394,7 +394,7 @@ p {
     padding: 50px;
     color: #fff;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #contact-info .contact-info-box i {
