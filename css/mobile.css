@@ -1,0 +1,164 @@
+
+/* Standard Smartphone */
+/*************************Home Page*************************/
+/******** Navigation Bar ********/
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: dotted #050 1px;
+}
+
+/******** FontPage Showcase ********/
+#showcase .showcase-content {
+    margin-top: 100px;
+}
+
+/*** HomePage Info 1, ***/
+#home-info{
+    height: 750px;
+}
+
+#home-info .info-img{
+    float: none;
+    width: 100%;
+    height: 50%;
+}
+
+#home-info .info-content{
+    float: none;
+    width: 100%;
+    height: 50%;
+    padding: 25px 10px;
+}
+
+#home-info .info-content p{
+    padding-bottom: 20px;
+}
+
+#home-info .info-content h1{
+    line-height: 1.6;
+    padding-bottom: 0;
+}
+
+/*** HomePage Info 2 ***/
+#home-info2 {
+    height: 750px;
+}
+
+#home-info2 .info-img-2 {
+    float: none;
+    height: 50%;
+    width: 100%;
+}
+
+#home-info2 .info-content-2 {
+    float: none;
+    height: 50%;
+    width: 100%;
+    padding: 25px 10px;
+}
+
+#home-info2 .info-content-2 p {
+    padding-bottom: 20px;
+}
+
+#home-info2 .info-content-2 h1{
+    line-height: 1.6;
+    padding-bottom: 0;
+}
+
+/*** HomePage Info 3 ***/
+#home-info3 {
+    height: 750px;
+}
+
+#home-info3 .info-img-3 {
+    float: none;
+    width: 100%;
+    min-height: 50%;
+}
+
+#home-info3 .info-content-3 {
+    float: none;
+    width: 100%;
+    height: 50%;
+    padding: 25px 10px;
+}
+
+#home-info3 .info-content-3 p {
+    padding-bottom: 20px;
+}
+
+#home-info3 .info-content-3 h1 {
+    line-height: 1.6;
+    padding-bottom: 0;
+}
+
+/*** Homepage info 3-boxes ***/
+#features {
+    height: 100%;
+    padding: 0;
+}
+
+#features .box {
+    float: none;
+    padding: 20px;
+    display: block;
+    margin: 25px auto;
+    width: 60%;
+}
+
+/*************************About Page*************************/
+/*** About Website ***/
+#about-info {
+    padding: 50px 0px 20px 0px;
+}
+
+#about-info .about-info-right,
+#about-info .about-info-left {
+    float: none;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+#about-info .about-info-right img {
+    width: 95%;
+}
+
+#about-info .about-info-left h1 {
+    line-height: 1.6;
+    padding: 10px 0 5px 0;
+}
+
+/*** About Traveler ***/
+#about-traveler {
+    padding: 60px 0;
+}
+
+#about-traveler h2 {
+    line-height: 1.6;
+}
+
+/*************************Contact Page*************************/
+#contact-form {
+    padding: 50px 0 20px 0;
+}
+
+/*** Contactbox ***/
+#contact-info .contact-info-box {
+    float: none;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+

@@ -1,0 +1,18 @@
+
+/* any pad */
+/*************************Home Page*************************/
+/*** Homepage info 3-boxes ***/
+#features {
+    height: 500px;
+    padding: 120px 0px 0 70px;
+}
+#features .box {
+    float: left;
+    width: 29%;
+    text-align: center;
+    padding: 40px;
+    border: solid #333 3px;
+    margin: 0 10px;
+    transition: .3s;
+    overflow: hidden;
+}
