@@ -369,7 +369,7 @@ p {
 #contact-form textarea {
     width: 100%;
     padding: 10px;
-    border: solid 1px #aaa;
+    border: solid 1px #ddd;
     transition: 0.5s;
     background: none;
     color: #fff;
