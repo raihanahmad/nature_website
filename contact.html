@@ -32,18 +32,18 @@
         <div class="container">
             <h1 class="biger-header">Contact <span class="highlight-white">Us</span></h1>
             <p>If you wanna contact us, please fill out the form.</p>
-            <form action="prosses.php">
+            <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="name" id="name" class="name">
+                    <input name="name" type="text" id="name" class="name">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" id="email" class="email">
+                    <input type="email" name="email" id="email" class="email">
                 </div>
                 <div class="form-group">
                     <label for="message">Massage</label>
-                    <textarea name="text" id="text"></textarea>
+                    <textarea name="message" id="text"></textarea>
                 </div>
                 <button type="submit" class="btn btn-submit">Submit</button>
             </form>
